@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Time GT | Experiencia Única de Café</title>
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">Coffee Time <span>GT</span></a>
+      <nav class="navbar">
+        <a href="#about">Nosotros</a>
+        <a href="#products">Productos</a>
+        <a href="#why-us">¿Por qué elegirnos?</a>
+        <a href="#reviews">Opiniones</a>
+        <a href="#gallery">Galería</a>
+      </nav>
+      <a href="https://instagram.com" target="_blank" class="btn btn-gold btn-sm nav-btn">
+        <i class="fab font-brands fa-instagram"></i> Instagram
+      </a>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="badge fade-in">Café Artesanal & Repostería Premium</span>
+      <h1 class="fade-in">Siente la calidez en cada sorbo</h1>
+      <p class="fade-in">Disfruta de bebidas de especialidad, frappés refrescantes y repostería artesanal recién horneada en un ambiente inolvidable.</p>
+      <div class="hero-buttons fade-in">
+        <a href="#products" class="btn btn-primary">Ver Menú</a>
+        <a href="https://instagram.com" target="_blank" class="btn btn-gold">
+          <i class="fab fa-instagram"></i> Ordenar por Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre Nosotros -->
+  <section class="about section-padding" id="about">
+    <div class="container about-grid">
+      <div class="about-image reveal">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&q=80&w=800" alt="Barista preparando café artesanal en Coffee Time GT">
+      </div>
+      <div class="about-text reveal">
+        <span class="section-subtitle">Sobre Nosotros</span>
+        <h2>Una experiencia creada para los amantes del buen café</h2>
+        <p>En <strong>Coffee Time GT</strong>, buscamos ofrecer una experiencia única a través de bebidas de alta calidad preparadas con ingredientes frescos y un excelente servicio.</p>
+        <p>Desde nuestro grano cuidadosamente tostado hasta nuestra variedad de postres y snacks, cada elemento está pensado para regalarte un momento de confort en tu día a día.</p>
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <i class="fas fa-seedling"></i>
+            <span>Ingredientes Selección</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-heart"></i>
+            <span>Pasión Artesanal</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Productos Destacados -->
+  <section class="products section-padding" id="products">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Nuestra Selección</span>
+        <h2>Productos Destacados</h2>
+        <p>Explora nuestras especialidades frías, calientes y repostería.</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Cappuccino -->
+        <div class="product-card reveal">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&q=80&w=600" alt="Cappuccino">
+          </div>
+          <div class="card-info">
+            <h3>Cappuccino</h3>
+            <p>Espresso intenso equilibrado con leche vaporizada y una capa densa de crema suave.</p>
+          </div>
+        </div>
+
+        <!-- Latte -->
+        <div class="product-card reveal">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&q=80&w=600" alt="Latte">
+          </div>
+          <div class="card-info">
+            <h3>Latte</h3>
+            <p>La combinación perfecta de textura cremosa y el sutil toque de nuestro mejor grano tostado.</p>
+          </div>
+        </div>
+
+        <!-- Frappé -->
+        <div class="product-card reveal">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&q=80&w=600" alt="Frappé">
+          </div>
+          <div class="card-info">
+            <h3>Frappé</h3>
+            <p>Bebida helada batida a la perfección, con toques de vainilla, caramelo o chocolate.</p>
+          </div>
+        </div>
+
+        <!-- Iced Coffee -->
+        <div class="product-card reveal">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&q=80&w=600" alt="Iced Coffee">
+          </div>
+          <div class="card-info">
+            <h3>Iced Coffee</h3>
+            <p>Refrescante café de extracción fría servido sobre hielo, listo para revitalizar tu tarde.</p>
+          </div>
+        </div>
+
+        <!-- Chocolate -->
+        <div class="product-card reveal">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&q=80&w=600" alt="Chocolate">
+          </div>
+          <div class="card-info">
+            <h3>Chocolate Artesanal</h3>
+            <p>Chocolate espeso y reconfortante, preparado con fórmulas tradicionales de cacao.</p>
+          </div>
+        </div>
+
+        <!-- Cheesecake -->
+        <div class="product-card reveal">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1524351199678-941a58a3df50?auto=format&fit=crop&q=80&w=600" alt="Cheesecake">
+          </div>
+          <div class="card-info">
+            <h3>Cheesecake</h3>
+            <p>Textura suave y cremosa sobre una base crujiente, acompañado de jalea artesanal.</p>
+          </div>
+        </div>
+
+        <!-- Brownie -->
+        <div class="product-card reveal">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&q=80&w=600" alt="Brownie">
+          </div>
+          <div class="card-info">
+            <h3>Brownie de Chocolate</h3>
+            <p>Intenso bizcocho húmedo de chocolate con nueces, suave por dentro y crocante por fuera.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ¿Por qué elegirnos? -->
+  <section class="why-us section-padding" id="why-us">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Nuestros Valores</span>
+        <h2>¿Por qué elegir Coffee Time GT?</h2>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="icon-box"><i class="fas fa-mug-hot"></i></div>
+          <h3>Café de calidad</h3>
+          <p>Grans seleccionados y tueste preciso para ofrecer la mejor taza siempre.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="icon-box"><i class="fas fa-leaf"></i></div>
+          <h3>Ingredientes frescos</h3>
+          <p>Repostería e insumos preparados diariamente para preservar su frescura.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="icon-box"><i class="fas fa-smile"></i></div>
+          <h3>Atención personalizada</h3>
+          <p>Nos esmeramos por hacerte sentir en casa con un trato amable y dedicado.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="icon-box"><i class="fas fa-store"></i></div>
+          <h3>Ambiente acogedor</h3>
+          <p>Un espacio tranquilo, ideal para concentrarte, conversar o relajarte.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="icon-box"><i class="fas fa-motorcycle"></i></div>
+          <h3>Entrega rápida</h3>
+          <p>Recibe tus postres y bebidas listas para disfrutar directamente hasta tu puerta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opiniones de Clientes -->
+  <section class="reviews section-padding" id="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Comunidad</span>
+        <h2>Lo que dicen nuestros clientes</h2>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card reveal">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"El Cappuccino de aquí es simplemente increíble, y el Cheesecake es el acompañamiento perfecto. ¡Mi lugar favorito para pedir postres!"</p>
+
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200" alt="Sofía Morales">
+            <div>
+              <h4>Sofía Morales</h4>
+              <span>@sofia_m_gt</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card reveal">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Hice mi pedido directamente por Instagram para una reunión en la oficina y llegó impecable. Los frappés llegaron perfectos y fríos."</p>
+
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200" alt="Carlos Mendoza">
+            <div>
+              <h4>Carlos Mendoza</h4>
+              <span>@carlos_mendoza</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card reveal">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"El ambiente es muy cálido y la atención de los chicos es impecable. El brownie con café caliente es una combinación de 10."</p>
+
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200" alt="Valeria Gómez">
+            <div>
+              <h4>Valeria Gómez</h4>
+              <span>@valegom</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section class="gallery section-padding" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">En Galería</span>
+        <h2>Sigue la Experiencia</h2>
+      </div>
+
+      <div class="gallery-grid reveal">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=600" alt="Taza de café">
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&q=80&w=600" alt="Postre artesanal">
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&q=80&w=600" alt="Iced Latte">
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600" alt="Granos de café tostado">
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=600" alt="Preparación de bebidas">
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=600" alt="Ambiente de cafetería">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Final -->
+  <section class="cta section-padding">
+    <div class="container cta-box reveal">
+      <h2>¿Listos para disfrutar de tu café favorito?</h2>
+      <p>Realiza tu pedido fácil y rápido a través de nuestra cuenta oficial de Instagram. ¡Escríbenos y te atenderemos con gusto!</p>
+      <div class="cta-buttons">
+        <a href="https://instagram.com" target="_blank" class="btn btn-gold">
+          <i class="fab fa-instagram"></i> Ver Instagram
+        </a>
+        <a href="https://ig.me" target="_blank" class="btn btn-outline-light">
+          <i class="far fa-paper-plane"></i> Enviar mensaje
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">Coffee Time <span>GT</span></a>
+        <p>Tu rincón especial para conectar, compartir y saborear la excelencia del buen café.</p>
+      </div>
+
+      <div class="footer-info">
+        <h4>Horarios</h4>
+        <p><i class="far fa-clock"></i> Lunes a Viernes: 7:00 AM - 8:00 PM</p>
+        <p><i class="far fa-clock"></i> Sábados y Domingos: 8:00 AM - 9:00 PM</p>
+      </div>
+
+      <div class="footer-info">
+        <h4>Ubicación</h4>
+        <p><i class="fas fa-map-marker-alt"></i> Ciudad de Guatemala, Guatemala</p>
+        <p><i class="fas fa-phone-alt"></i> +502 5555-5555</p>
+      </div>
+
+      <div class="footer-socials">
+        <h4>Síguenos</h4>
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://tiktok.com" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Coffee Time GT. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
